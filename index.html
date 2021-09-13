@@ -24,10 +24,15 @@
 
 <body>
   <header>
-    <h1 class="text-center">Welcome to <span class="store">Ranga Store</span></h1>
+    <h1 class="text-center">Welcome to <span class="store">Fake Store</span></h1>
   </header>
   <main class="main">
-    <div class="search-field">
+    <div class="text-center search-field ">
+      <input class=" search-box" id="input-field" type="search" placeholder="Find your item" aria-label="Search">
+      <button class="button rounded-3 ms-1" type="button">search
+      </button>
+    </div>
+    <!-- <div class="search-field">
       <div class="search-box">
         <input id="input-field" class="search-field" type="text" />
         <button type="button" class="btn btn-primary search-button" data-toggle="button" aria-pressed="false"
@@ -35,10 +40,13 @@
           Search
         </button>
 
-      </div>
+      </div> -->
     </div>
-    <div class=" col-md-3 col-lg-7 col-sm-3 m-5 g-4">
-      <div id="all-products" class="">
+    <div>
+      
+    </div>
+    <div class=" col-md-3 col-lg-7 col-sm-3 m-5 ">
+      <div id="all-products" class="card">
       </div>
     </div>
     <div class="col-md-3 col-lg-3 col-sm-5 m-5 cart-main">
@@ -80,7 +88,7 @@
             </tr>
             <tr>
               <th scope="row">Total</th>
-              <td colspan="2">$ <span id="total">0</span></td>
+              <td col span="2">$ <span id="total">0</span></td>
               <td></td>
             </tr>
           </tbody>
