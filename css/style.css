@@ -41,7 +41,7 @@ body {
   grid-template-columns: repeat(3, 1fr);
   /* border: 1px solid black; */
   text-align: center;
-  width: 70%;
+  width: 90%;
   margin: auto;
   grid-row-gap: 15px;
   grid-column-gap: 20px;
