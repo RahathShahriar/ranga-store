@@ -20,6 +20,8 @@ body {
   margin-top: 50px;
   border-right: none;
   border-top: none;
+  border-left: none;
+  
   
 }
 .search-box:hover {
@@ -28,7 +30,7 @@ body {
 }
 .button {
   color:white ;
-  background-color:rgb(13, 163, 233);
+  background-color:rgb(7, 61, 87);
   border: none;
   padding: 3px 10px 5px 10px;
   font-size: 18px;
@@ -39,8 +41,10 @@ body {
   grid-template-columns: repeat(3, 1fr);
   /* border: 1px solid black; */
   text-align: center;
-  width: 100%;
+  width: 70%;
   margin: auto;
+  grid-row-gap: 15px;
+  grid-column-gap: 20px;
   align-items: center;
   justify-content: center;
   border: none;
@@ -50,15 +54,13 @@ body {
 .single-product {
   padding: 10px;
   transition: 0.6s;
-  background-color: rgba(225, 242, 245, 0.37);
-  height: 450px;
+  height: 470px;
+
 }
 .single-product:hover {
   box-shadow: 4px 4px 7px gray;
   border-radius: 10px;
   border: 1px solid cyan;
-  background-color: rgba(194, 248, 255, 0.37);
-  
 }
 .product-image {
   width: 150px;
@@ -71,8 +73,7 @@ body {
   box-shadow: 10px 10px 20px gray;
   border-radius: 5px;
   margin-right: 30px;
-  position: fixed;
-  
+  position: fixed; 
 }
 .cart-main {
   padding-right: 30px;
